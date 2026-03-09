@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #ea8c08;
+  --color-primary-dark: #cc7a07;
+  --color-secondary: #2d2001;
+  --color-background: #ffffff;
+  --color-foreground: #2d2001;
+}
+
+@layer base {
+  body {
+    background-color: var(--color-background);
+    color: var(--color-foreground);
+    @apply antialiased;
+  }
+}
