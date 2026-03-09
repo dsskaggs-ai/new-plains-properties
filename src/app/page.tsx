@@ -5,6 +5,8 @@ import Features from "@/components/Features";
 import BeforeAfter from "@/components/BeforeAfter";
 import AboutUs from "@/components/AboutUs";
 
+export const dynamic = "force-static";
+
 export default function Home() {
   return (
     <div className="min-h-screen flex flex-col">
